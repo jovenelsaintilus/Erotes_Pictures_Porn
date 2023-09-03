@@ -131,3 +131,25 @@
     border-radius: 30%;
     cursor: pointer;
 }
+.conteudo{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.conteudo ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.conteudo img{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.conteudo img:hover{
+    width: 250px;
+    margin-top: 50px;
+    transform: scale(1.1);
+}
